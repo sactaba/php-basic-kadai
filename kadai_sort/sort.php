@@ -10,7 +10,7 @@
     <p>
 			<?php
 			function sort_2way($array, $order){
-				if ($order === true){
+				if ($order){
 					echo '昇順にソートします。<br>';
 					sort($array);
 					foreach ($array as $ascending){
